@@ -57,8 +57,9 @@
 // console.log(stringNumber);
 // console.log(typeof stringNumber);
 
-let rendomNumber = 22
-let stringNum = Boolean (rendomNumber)
-console.log(stringNum)
-console.log(typeof stringNum)
-console.log(rendomNumber);
+// let rendomNumber = 22
+// let stringNum = Boolean (rendomNumber)
+// console.log(stringNum)
+// console.log(typeof stringNum)
+// console.log(rendomNumber);
+
