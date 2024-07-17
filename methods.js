@@ -67,10 +67,31 @@
 // const triple = arr.map((x) => x * 3);
 // console.log(triple);//output - [3,6,12,24,30]
 
-
 // const arr1 = [2,3,4,5];
 // const binary = arr1.map((x)=> x.toString(2));
 // console.log(binary);
 
+// Array Filter ---->creates a new array with all
+//elements that pass the test implemented by the provided function.
 
+// const toFindEvenNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// const evenNumbers = toFindEvenNumbers.filter((x) => x % 2 === 0);
+// console.log(evenNumbers); //output-[2,4,6,8,10]
 
+// const toFindOddNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// const oddNumbers = toFindOddNumbers.filter((x) => x % 2);
+// console.log(oddNumbers); //output-[1,3,5,7,9]
+
+const countryName = [
+  "India",
+  "Africa",
+  "New Zeland",
+  "America",
+  "United Kingdom",
+];
+
+const findTheSmallWordsCountryName = countryName.filter(
+  (countryName) => countryName.length <= 5
+);
+console.log(findTheSmallWordsCountryName); // Output - 'India'
+//console.log(findTheSmallWordsCountryName);
